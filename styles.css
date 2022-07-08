@@ -99,6 +99,7 @@ html::-webkit-scrollbar-thumb:hover {
     flex: 1;
     padding: 0 20px;
     text-align: center;
+    color: hsl(216, 98%, 52%);
 }
 
 .hnlESl img {
