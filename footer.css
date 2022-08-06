@@ -1,0 +1,123 @@
+/* footer */
+.footer * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+}
+
+.footer {
+      background-color: hsl(216, 98%, 52%);
+      padding: 70px 0;
+}
+
+footer .container {
+      max-width: 73vw;
+      margin: auto;
+}
+
+footer .container .row {
+      display: flex;
+      flex-wrap: wrap;
+}
+
+footer .container .row ul {
+      list-style: none;
+}
+
+.footer-col {
+      width: 23.3%;
+      padding: 0 15px;
+      padding-left: 0;
+      text-align: left;
+}
+
+.footer-col h4 {
+      font-size: 20px;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 500;
+      position: relative;
+      white-space: nowrap;
+}
+
+.footer-col h4::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      background-color: #250e16;
+      height: 2px;
+      box-sizing: border-box;
+      width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+      margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+      font-size: 17px;
+      line-height: 26px;
+      text-transform: capitalize;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 300;
+      display: block;
+      transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+      color: #ffffff;
+      opacity: .6;
+      padding-left: 8px;
+}
+
+.footer-col .social-links a {
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      background-color: rgba(255, 255, 255, 0.2);
+      margin: 0 10px 10px 0;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color: #ffffff;
+      transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+      color: hsl(216, 98%, 52%);
+      background-color: #ffffff;
+}
+
+.footer-col:nth-of-type(4) {
+      width: 30%;
+      white-space: nowrap;
+}
+
+/*responsive*/
+@media screen and (max-width: 767px) {
+      .footer-col {
+            width: 50%;
+            margin-bottom: 30px;
+      }
+}
+
+@media screen and (max-width: 574px) {
+      .footer-col {
+            width: 100%;
+      }
+}
+
+div.copyright {
+      height: 46px;
+      position: relative;
+      top: 70px;
+      display: grid;
+      place-items: center;
+      box-shadow: 0 0 8px hsla(216, 72%, 73%, 0.8);
+      font-size: 14px;
+      color: hsl(0, 100%, 94%);
+      opacity: 0.6;
+}

@@ -34,6 +34,11 @@ html::-webkit-scrollbar-thumb:hover {
     background-color: hsl(216, 100%, 30%);
 }
 
+div.item-img img {
+    width: 50% !important;
+    margin: 0 auto;
+}
+
 .display-1 {
     font-family: 'Jost', sans-serif;
     font-size: 4.6rem;
@@ -1385,6 +1390,10 @@ a {
 
 .cid-sH6KbHvJ5B .wrap-img img {
     max-width: 100%;
+}
+
+.card-wrapper {
+    box-shadow: 0 0 3px rgb(176, 171, 171);
 }
 
 .cid-sH6KbHvJ5B .card-box p {
